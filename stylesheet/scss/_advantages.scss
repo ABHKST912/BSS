@@ -1,0 +1,27 @@
+$primary-green:#219B43;
+
+.advantages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+    color: black;
+    text-align: center;
+    p{
+        width: 60%;
+        padding: 0 10% 0 15%;
+    }
+    .green-seperate{
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .advantages{
+      display: flex;
+      flex-direction: column;   
+    }
+    .green-seperate{
+        transform: rotate(90deg);
+    }
+}
