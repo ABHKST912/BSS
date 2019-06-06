@@ -60,11 +60,20 @@ nav {
 
 .advantages {
   display: flex;
+  margin: 1% 0;
   align-items: center;
   justify-content: space-around;
-  margin: 5%;
   color: black;
   text-align: center;
+}
+.advantages a {
+  padding: 4% 0;
+  transition: ease;
+  transition-duration: 0.5s;
+  color: black;
+}
+.advantages a:hover {
+  box-shadow: 0 10px 20px rgba(33, 155, 67, 0.25), 0 6px 6px rgba(33, 155, 67, 0.35);
 }
 .advantages p {
   width: 60%;
@@ -188,6 +197,9 @@ body {
   margin: 0px;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
+}
+body a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
